@@ -69,6 +69,7 @@ exports.WebSocketShard = require('./client/websocket/WebSocketShard');
 // Structures
 exports.Activity = require('./structures/Presence').Activity;
 exports.AnonymousGuild = require('./structures/AnonymousGuild');
+exports.APIMessage = require('./structures/APIMessage');
 exports.Application = require('./structures/interfaces/Application');
 exports.ApplicationCommand = require('./structures/ApplicationCommand');
 exports.AutocompleteInteraction = require('./structures/AutocompleteInteraction');
