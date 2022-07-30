@@ -9,7 +9,6 @@
 		"lint": "turbo run lint",
 		"format": "turbo run format",
 		"fmt": "turbo run format",
-		"postinstall": "is-ci || husky install",
 		"docs": "turbo run docs",
 		"changelog": "turbo run changelog",
 		"update": "yarn upgrade-interactive"
@@ -48,6 +47,5 @@
 	},
 	"engines": {
 		"node": ">=16.9.0"
-	},
-	"packageManager": "yarn@3.1.1"
+	}
 }
